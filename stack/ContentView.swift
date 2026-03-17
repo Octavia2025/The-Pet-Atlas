@@ -33,7 +33,7 @@ struct DifferentPets: View {
         NavigationStack {
             
             List{
-                NavigationLink("Dogs"){Dogs()}
+                NavigationLink("Dogs"){DogsView()}
                 NavigationLink("Cats"){Cats()}
                 NavigationLink("Rabbits and hamsters"){RabbitsAndHamsters()}
                 NavigationLink("Birds"){Birds()}
@@ -45,73 +45,65 @@ struct DifferentPets: View {
     }
 }
 
-struct Dogs: View {
-    var body: some View {
-        NavigationStack{
-            NavigationStack{
-               ScrollView{
-                    Image("Labrador Retriever ")
-                        .resizable()
-                        .frame(width:200, height: 200)
-                    Text("Labrador Retrievers -  Friendly, outgoing, intelligent, versatile, good with children ")
-                    
-                    
-                    Image("Golden Retriever")
-                        .resizable()
-                        .frame(width:200, height: 200)
-                    Text("Golden Retrievers -  Gentle, loyal, intelligent, affectionate, good with children")
-                        .padding(.top)
-                    Image("Beagle")
-                        .resizable()
-                        .frame(width:200, height: 200)
-                    Text("Beagles -  Playful, energetic, curious, friendly, good with children")
-                        .padding(.bottom)
-                    Image("poodle")
-                        .resizable()
-                        .frame(width: 200, height: 200)
-                    Text(" Poodle - Intelligent, trainable, loyal, affectionate, good with children")
-                        .padding(.bottom)
-                    Image("French bulldog")
-                        .resizable()
-                        .frame(width:200, height: 200)
-                    Text(" French Bulldog - Affectionate, playful, adaptable, good with children")
-                        .padding(.bottom)
-                    Image("Yorkshire Terrier 1")
-                        .resizable()
-                        .frame(width: 200, height: 200)
-                    Text("* Yorkshire Terrier - Affectionate, playful, adaptable, good with children")
-                        .padding(.bottom)
-                    
-                    Image("Boarder Collie")
-                        .resizable()
-                        .frame(width: 200, height: 200)
-                    Text("Boarder Collie - Affectionate, playful, adaptable, good with children")
-                        .padding(.bottom)
-                    
-                    Image("Corgi")
-                        .resizable()
-                        .frame(width: 200, height: 200)
-                    Text("Corgi - Affectionate, playful, adaptable, good with children")
-                        .padding(.bottom)
-                   
-                   NavigationLink("Octa"){
-                       Octa()
-                       
-                   }
-                    
-                    
-                    
-                    
-                }
-            }
-        }
-    }
-}
-struct Octa:View {
-    var body: some View {
-        Text("Octa")
-    }
-}
+//struct Dogs: View {
+//    var body: some View {
+//        NavigationStack{
+//            NavigationStack{
+//               ScrollView{
+//                    Image("Labrador Retriever ")
+//                        .resizable()
+//                        .frame(width:200, height: 200)
+//                    Text("Labrador Retrievers -  Friendly, outgoing, intelligent, versatile, good with children ")
+//                    
+//                    
+//                    Image("Golden Retriever")
+//                        .resizable()
+//                        .frame(width:200, height: 200)
+//                    Text("Golden Retrievers -  Gentle, loyal, intelligent, affectionate, good with children")
+//                        .padding(.top)
+//                    Image("Beagle")
+//                        .resizable()
+//                        .frame(width:200, height: 200)
+//                    Text("Beagles -  Playful, energetic, curious, friendly, good with children")
+//                        .padding(.bottom)
+//                    Image("poodle")
+//                        .resizable()
+//                        .frame(width: 200, height: 200)
+//                    Text(" Poodle - Intelligent, trainable, loyal, affectionate, good with children")
+//                        .padding(.bottom)
+//                    Image("French bulldog")
+//                        .resizable()
+//                        .frame(width:200, height: 200)
+//                    Text(" French Bulldog - Affectionate, playful, adaptable, good with children")
+//                        .padding(.bottom)
+//                    Image("Yorkshire Terrier 1")
+//                        .resizable()
+//                        .frame(width: 200, height: 200)
+//                    Text("* Yorkshire Terrier - Affectionate, playful, adaptable, good with children")
+//                        .padding(.bottom)
+//                    
+//                    Image("Boarder Collie")
+//                        .resizable()
+//                        .frame(width: 200, height: 200)
+//                    Text("Boarder Collie - Affectionate, playful, adaptable, good with children")
+//                        .padding(.bottom)
+//                    
+//                    Image("Corgi")
+//                        .resizable()
+//                        .frame(width: 200, height: 200)
+//                    Text("Corgi - Affectionate, playful, adaptable, good with children")
+//                        .padding(.bottom)
+//                   
+//                  
+//                    
+//                    
+//                    
+//                    
+//                }
+//            }
+//        }
+//    }
+//}
 
 
 
