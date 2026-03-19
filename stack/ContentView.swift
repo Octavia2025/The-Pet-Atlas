@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-// MARK: - App Entry (Splash Screen)
+
 struct ContentView: View {
     var body: some View {
         NavigationStack {
@@ -29,13 +29,13 @@ struct ContentView: View {
                         .foregroundColor(.white)
                         .shadow(radius: 10)
                     
-                    // Short, clean statement
+                   
                     Text("Find your perfect companion.")
                         .font(.title3)
                         .foregroundColor(.white.opacity(0.9))
                         .shadow(radius: 5)
                     
-                    // Modern Action Button
+                    
                     NavigationLink(destination: DifferentPets()) {
                         HStack {
                             Text("Get Started")
