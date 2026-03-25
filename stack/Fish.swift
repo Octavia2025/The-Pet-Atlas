@@ -67,7 +67,7 @@ struct FishView: View {
         FishBreed(name: "Corydoras Catfish", imageName: "Corydoras Catfish", description: "Peaceful bottom-dwellers that help keep the tank clean by eating leftover food."),
         FishBreed(name: "Angelfish", imageName: "Angelfish", description: "Graceful and majestic, but require larger tanks and specific water conditions as they grow.")
     ]
-
+    
     var body: some View {
         NavigationStack {
             ScrollView {
