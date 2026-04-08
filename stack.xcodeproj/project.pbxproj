@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		84C0ECE82F7410280059AC20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84C0ECD52F7410280059AC20 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		465980A02DFB0D590098CCCC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		465980922DFB0D560098CCCC /* stack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4659809F2DFB0D590098CCCC /* stackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		465980A92DFB0D590098CCCC /* stackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C0ECD52F7410280059AC20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		465980892DFB0D560098CCCC = {
 			isa = PBXGroup;
 			children = (
+				84C0ECD52F7410280059AC20 /* Assets.xcassets */,
 				465980942DFB0D560098CCCC /* stack */,
 				465980A22DFB0D590098CCCC /* stackTests */,
 				465980AC2DFB0D590098CCCC /* stackUITests */,
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84C0ECE82F7410280059AC20 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

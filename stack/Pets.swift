@@ -13,7 +13,7 @@ struct DifferentPets: View {
     let categories = [
         PetCategory(name: "Dogs", icon: "dog.fill", color: .orange, destination: AnyView(DogsView())),
         PetCategory(name: "Cats", icon: "cat.fill", color: .purple, destination: AnyView(CatsView())),
-        PetCategory(name: "Rabbits & Hamsters", icon: "rabbit.fill", color: .blue, destination: AnyView(RabbitsAndHamstersView())),
+        PetCategory(name: "Rabbits & Hamsters", icon: "hare.fill", color: .blue, destination: AnyView(RabbitsAndHamstersView())),
         PetCategory(name: "Birds", icon: "bird.fill", color: .cyan, destination: AnyView(BirdsView())),
         PetCategory(name: "Fish", icon: "fish.fill", color: .teal, destination: AnyView(FishView())),
         PetCategory(name: "Reptiles", icon: "tortoise.fill", color: .green, destination: AnyView(ReptilesAndAmphibiansView()))
