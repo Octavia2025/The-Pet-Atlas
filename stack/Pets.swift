@@ -17,6 +17,7 @@ struct DifferentPets: View {
         PetCategory(name: "Birds", icon: "bird.fill", color: .cyan, destination: AnyView(BirdsView())),
         PetCategory(name: "Fish", icon: "fish.fill", color: .teal, destination: AnyView(FishView())),
         PetCategory(name: "Reptiles", icon: "tortoise.fill", color: .green, destination: AnyView(ReptilesAndAmphibiansView()))
+        
     ]
     
     // Two-column layout
